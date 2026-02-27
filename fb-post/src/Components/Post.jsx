@@ -31,7 +31,7 @@ function Post({ post }) {
   };
 
   return (
-    <div className="bg-white w-[600px] rounded-xl shadow-md p-4">
+    <div className="bg-white w-150 rounded-xl shadow-md p-4">
       <div className="flex items-center gap-3 mb-3">
         <img
           src={avatar}
@@ -76,7 +76,7 @@ function Post({ post }) {
           <img
             src={images[0]}
             onClick={() => openCarousel(0)}
-            className="w-full h-[400px] object-cover cursor-pointer"
+            className="w-full h-100 object-cover cursor-pointer"
             alt=""
           />
         </div>
@@ -87,7 +87,7 @@ function Post({ post }) {
               <img
                 src={img}
                 onClick={() => openCarousel(index + 1)}
-                className="w-full h-[150px] object-cover cursor-pointer"
+                className="w-full h-37.5 object-cover cursor-pointer"
                 alt=""
               />
 
